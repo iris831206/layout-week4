@@ -1,0 +1,23 @@
+.blog-nav {
+    background-color: $secondary;
+    color: #fff;
+    ul {
+        gap: 48px;
+        padding: 12px 0;
+    }
+    @include pad {
+        display: none;
+    }
+}
+
+.blog-md-nav {
+    @include pad {
+      display: block;
+      span {
+        display: none;
+      }
+      .jc-space-between {
+        justify-content: center;
+      }
+    }
+  }

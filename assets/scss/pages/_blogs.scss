@@ -1,0 +1,58 @@
+.blogs {
+  padding: 80px 0;
+  @include pad {
+    padding: 40px 0;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+  .card {
+    h3 {
+      font-size: 32px;
+      color: $secondary;
+    }
+    h4 {
+      font-weight: 500; /*Medium*/
+      font-size: 20px;
+    }
+    span {
+      color: #555555;
+      font-weight: 500; /*Medium*/
+    }
+    p {
+      color: #555555;
+      font-size: 20px;
+    }
+    .button {
+      color: $secondary;
+      font-size: 36px;
+      font-weight: 900; /*Black*/
+      text-align: end;
+    }
+  }
+  @include pad {
+    .card {
+      h3 {
+        font-size: 24px;
+      }
+      h4 {
+        font-size: 16px;
+      }
+      p {
+        display: none;
+      }
+    }
+    .button {
+      display: none;
+    }
+    ul {
+      margin-top: 24px;
+      row-gap: 24px;
+    }
+    .col-md-mt-1 {
+      margin-top: 8px;
+    }
+  }
+}

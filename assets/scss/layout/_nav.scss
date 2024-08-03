@@ -1,0 +1,55 @@
+/* nav */
+.nav {
+  padding: 16px 0;
+  .logo {
+    width: 80px;
+  }
+  .nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .nav-link:hover {
+    color: #d5d5d5;
+
+  }
+  ul {
+    gap: 64px;
+  }
+}
+
+/*提早切換手機版型，以避免文字區塊跑版*/
+@include mobile-larger {
+  .nav {
+    .container {
+      padding: 0;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-width: 1320px; /*滿寬*/
+    }
+    .logo {
+      display: block;
+      margin-right: auto;
+      padding-left: 12px;
+    }
+    ul {
+      width: 100%;
+      margin-top: 12px;
+      flex-wrap: wrap;
+      gap: 0;
+      margin-bottom: -16px;
+    }
+    .nav-link {
+      padding: 12px 0;
+      width: 50%;
+      border: #ffffff solid 1px;
+      text-align: center;
+    }
+    .nav-link:hover {
+      background-color: $secondary;
+    }
+    .border-white {
+      border: #ffffff solid 1px;
+    }
+  }
+}

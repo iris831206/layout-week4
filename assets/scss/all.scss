@@ -1,0 +1,21 @@
+@import './helper/mixins.scss'; //預先載入，以避免下面檔案讀取不到
+@import './helper/variables.scss';
+@import './helper/utilities.scss';
+
+@import './base/reset.scss';
+@import './base/base.scss';
+
+
+@import './layout/nav.scss';
+@import './layout/footer.scss';
+@import './layout/pagination.scss';
+@import './layout/blog-nav.scss';
+@import './layout/product-header.scss';
+
+@import './pages/index.scss';
+@import './pages/products.scss';
+@import './pages/shops.scss';
+@import './pages/shop.scss';
+@import './pages/QA.scss';
+@import './pages/blogs.scss';
+@import './pages/blog.scss';

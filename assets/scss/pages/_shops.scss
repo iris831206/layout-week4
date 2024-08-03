@@ -1,0 +1,67 @@
+.shops {
+  padding: 80px 0;
+  @include mobile {
+    padding: 40px 0;
+  }
+  .row {
+    row-gap: 48px;
+    @include pad {
+      row-gap: 24px;
+    }
+  }
+  .main-title {
+    @include mobile {
+      font-size: 24px;
+    }
+  }
+  .subtitle {
+    font-size: 24px;
+    text-align: start;
+  }
+    select {
+      font-family: "Roboto", "Noto Sans TC", sans-serif;
+      border: #ced4da 1px solid;
+      color: rgba(#495057, 0.75);
+      font-size: 18px;
+      height: 36px;
+      width: 304px;
+      padding: 6px 12px;
+      margin-left: 16px;
+    }
+    .area-select {
+      @include mobile {
+        .subtitle {
+          font-size: 16px;
+        }
+        select {
+          margin-left: 8px;
+          width: 276px;
+        }
+      }
+  }
+  .card {
+    &-title {
+      padding: 8px 24px;
+      border: #00000020 1px solid;
+      font-size: 24px;
+    }
+    &-content {
+      padding: 16px 24px;
+      border: #00000020 1px solid;
+      li {
+        display: flex;
+        margin-bottom: 8px;
+        p {
+          font-size: 20px;
+          margin-left: 8px;
+        }
+      }
+    }
+    .button {
+      padding: 16px 0;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
