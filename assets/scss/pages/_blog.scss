@@ -50,6 +50,9 @@
           height: 24px;
         }
       }
+      @include pad {
+        display: none;
+      }
     }
   }
   .tag-cloud {
