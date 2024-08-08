@@ -84,6 +84,7 @@
 .brand {
   padding: 80px 0;
   background-image: url(../img/index-bg.png);
+  background-position: center;
   background-size: cover;
   @include mobile {
     padding: 40px 0;
@@ -190,6 +191,9 @@
     background-color: $bg-light;
     height: 36px;
   }
+  .form label {
+    gap:16px
+  }
   .w-100 {
     width: 100%;
   }
@@ -198,5 +202,7 @@
     padding: 16px 0;
     cursor: pointer;
     text-align: center;
+    font-family: "Roboto", "Noto Sans TC", sans-serif;
+    border: 0;
   }
 }

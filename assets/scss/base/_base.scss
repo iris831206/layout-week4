@@ -29,7 +29,7 @@ a {
 
 body {
   font-family: "Roboto", "Noto Sans TC", sans-serif;
-  font-size: 16px;
+  //font-size: 16px; 由於瀏覽器預設文字大小就是 16px，所以不用另外設定 font-size: 16px
   line-height: 1.5;
 }
 button {
