@@ -9,6 +9,8 @@
   <!-- google icon -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script type="module" crossorigin src="/layout-week4/assets/main-e40934a6.js"></script>
   <link rel="stylesheet" href="/layout-week4/assets/main-d62faef5.css">
 </head>
@@ -69,15 +71,15 @@
         <div class="container">
           <h2 class="title color-secondary">經典系列鏡框</h2>
           <ul class="row mt-6">
-            <li class="col-4 col-md-12">
+            <li class="col-4 col-md-12" data-aos="fade-down" data-aos-duration="400">
               <img src="/layout-week4/assets/home-section3-1-bb26ab65.png" class="col-md-img col-sm-img">
               <h3 class="title color-primary italic mt-1">OPTICAL</h3>
             </li>
-            <li class="col-4 col-md-12">
+            <li class="col-4 col-md-12" data-aos="fade-down" data-aos-duration="600">
               <img src="/layout-week4/assets/home-section3-2-38fdd6aa.png" class="col-md-img col-sm-img">
               <h3 class="title color-primary italic mt-1">SUNGLASSES</h3>
             </li>
-            <li class="col-4 col-md-12">
+            <li class="col-4 col-md-12" data-aos="fade-down" data-aos-duration="800">
               <img src="/layout-week4/assets/home-section3-3-52db7b9d.png" class="col-md-img col-sm-img">
               <h3 class="title color-primary italic mt-1">FUNCTIONAL</h3>
             </li>
@@ -87,7 +89,7 @@
       <section class="brand">
         <div class="container">
           <h2 class="title-light">聯名設計鏡框</h2>
-          <div class="d-flex flex-wrap">
+          <div class="d-flex flex-wrap"  data-aos="zoom-in">
             <div class="shop img-double-a">
               <div class="btn-light">
                 <h3 class="title color-primary italic">DOUBLE A+</h3>
@@ -106,7 +108,7 @@
           <h2 class="title color-secondary">顧客推薦</h2>
           <ul class="row d-flex mt-6">
             <li class="col-3 col-md-6 col-sm-12">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="400">
                 <div>
                   <img src="/layout-week4/assets/home-section5-1-75717951.png">
                 </div>
@@ -122,7 +124,7 @@
               </div>
             </li>
             <li class="col-3 col-md-6 col-sm-12 col-sm-card">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="600">
                 <div>
                   <img src="/layout-week4/assets/home-section5-2-bf28c8b7.png">
                 </div>
@@ -139,7 +141,7 @@
               </div>
             </li>
             <li class="col-3 col-md-6 col-sm-12 col-md-card">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="800">
                 <div>
                   <img src="/layout-week4/assets/home-section5-3-978a0702.png">
                 </div>
@@ -155,7 +157,7 @@
               </div>
             </li>
             <li class="col-3 col-md-6 col-sm-12 col-md-card">
-              <div class="card">
+              <div class="card" data-aos="flip-left" data-aos-duration="1000">
                 <div>
                   <img src="/layout-week4/assets/home-section5-4-cc3480ec.png">
                 </div>
@@ -247,6 +249,11 @@
         </div>
     </div>
 </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      
       
 </body>
 
